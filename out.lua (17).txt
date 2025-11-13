@@ -1,0 +1,155 @@
+-- This file was generated with UnveilR 2.1.5 at discord.gg/threaded or discord.gg/aqfudJEEeE (hookOp is on).
+local fenv = getfenv()
+local args1 = { ... }
+local var1 = (unpack or unpack)
+local success1 = pcall(function(...) -- pcall id 1
+    wait()
+end) -- true
+-- false
+if not getfenv then -- didnt run, expr id 1
+else
+    -- false
+    if not debug then -- didnt run, expr id 2
+    else
+        -- false
+        if not loadstring then -- didnt run, expr id 3
+        else
+            -- 1
+            -- false
+            if (#debug.getinfo(loadstring).what == 3) then -- didnt run, expr id 4
+            else
+                -- false
+                if not pcall then -- didnt run, expr id 5
+                else
+                    -- 1
+                    -- false
+                    if (#debug.getinfo(pcall).what == 3) then -- didnt run, expr id 6
+                    else
+                        -- false
+                        if not islclosure then -- didnt run, expr id 7
+                        else
+                            local success2 = pcall(function(...) -- pcall id 3
+                                if islclosure("loadstring") then -- didnt run, expr id 8
+                                else
+                                    local success2, errMsg2 = pcall(function(...) -- pcall id 2
+                                        --[[ nil("loadstring")]]
+                                    end) -- false, "/[internal]: attempt to call a nil value"
+                                    local tbl_25 = {
+                                        success2,
+                                        errMsg2,
+                                    }
+                                    tbl_25[1]
+                                    tbl_25[1]
+                                    tbl_25[2]
+                                end
+                            end) -- true
+                            local success4 = pcall(function(...) -- pcall id 5
+                                if islclosure("pcall") then -- didnt run, expr id 9
+                                else
+                                    local success4, errMsg4 = pcall(function(...) -- pcall id 4
+                                        --[[ nil("pcall")]]
+                                    end) -- false, "/[internal]: attempt to call a nil value"
+                                    local tbl_36 = {
+                                        success4,
+                                        errMsg4,
+                                    }
+                                    tbl_36[1]
+                                    tbl_36[1]
+                                    tbl_36[2]
+                                end
+                            end) -- true
+                            -- false
+                            if (loadstring == print) then -- didnt run, expr id 10
+                            else
+                                -- false
+                                if (pcall == print) then -- didnt run, expr id 11
+                                else
+                                    local success6, errMsg6 = pcall(function(...) -- pcall id 6
+                                        setfenv(loadstring, {})
+                                    end) -- false, "/[internal]: 'setfenv' cannot change environment of given object"
+                                    if success6 then -- didnt run, expr id 12
+                                    else
+                                        -- false
+                                        if not print then -- didnt run, expr id 13
+                                        else
+                                            local success7, errMsg7 = pcall(function(...) -- pcall id 7
+                                                setfenv(pcall, {})
+                                            end) -- false, "/[internal]: 'setfenv' cannot change environment of given object"
+                                            if success7 then -- didnt run, expr id 14
+                                            else
+                                                -- false
+                                                if not print then -- didnt run, expr id 15
+                                                else
+                                                    local success8, errMsg8 = pcall(function(...) -- pcall id 8
+                                                        setfenv(loadstring, {})
+                                                    end) -- false, "/[internal]: 'setfenv' cannot change environment of given object"
+                                                    if success8 then -- didnt run, expr id 16
+                                                    else
+                                                        -- false
+                                                        if not writefile then -- didnt run, expr id 17
+                                                        else
+                                                            local success9, errMsg9 = pcall(function(...) -- pcall id 9
+                                                                setfenv(pcall, {})
+                                                            end) -- false, "/[internal]: 'setfenv' cannot change environment of given object"
+                                                            if success9 then -- didnt run, expr id 18
+                                                            else
+                                                                -- false
+                                                                if not writefile then -- didnt run, expr id 19
+                                                                else
+                                                                    local success10, errMsg10 = pcall(function(...) -- pcall id 10
+                                                                        setfenv(loadstring, {})
+                                                                    end) -- false, "/[internal]: 'setfenv' cannot change environment of given object"
+                                                                    if success10 then -- didnt run, expr id 20
+                                                                    else
+                                                                        -- false
+                                                                        if not fenv.rconsoleprint then -- didnt run, expr id 21
+                                                                        else
+                                                                            local success11, errMsg11 = pcall(function(...) -- pcall id 11
+                                                                                setfenv(pcall, {})
+                                                                            end) -- false, "/[internal]: 'setfenv' cannot change environment of given object"
+                                                                            if success11 then -- didnt run, expr id 22
+                                                                            else
+                                                                                -- false
+                                                                                if not fenv.rconsoleprint then -- didnt run, expr id 23
+                                                                                else
+                                                                                -- false
+                                                                                if not loadstring then -- didnt run, expr id 24
+                                                                                else
+                                                                                loadstring("return function(b,c)local d,e=0x01,0x10;local f={{},{},{}}local g=-0x01;local h=0x01;local i=b;while true do f[0x03][string.sub(c,h,(function()h=d+h;return h-0x01 end)())]=(function()g=g+0x01;return g end)()if g==0x0f then g=''e=0x000;break end end;local j=#c;while h<j+0x01 do f[0x02][e]=string.sub(c,h,(function()h=d+h;return h-0x01 end)())e=e+0x01;if e%0x02==0x00 then e=0x00;table.insert(f[0x01],string.char(((f[0x03][f[0x02][0x00]]or 0x00)*0x10+(f[0x03][f[0x02][0x01]]or 0x00)+i)%0x100))i=b+i end end;return table.concat(f[0x01])end")()
+                                                                                local var76 = loadstring("return(function(r,...)local k;local l;local b;local t;local f;local h;local e=24915;local n=0;local d={};while n<494 do n=n+1;while n<0x2f1 and e%0x2b8e<0x15c7 do n=n+1 e=(e+219)%49812 local s=n+e if(e%0x19ac)<0xcd6 then e=(e-0x1c7)%0x186a while n<0x32f and e%0x4096<0x204b do n=n+1 e=(e-770)%39356 local s=n+e if(e%0x3368)<0x19b4 then e=(e-0x1c4)%0xb43c local e=26296 if not d[e]then d[e]=0x1 k=tonumber;end elseif e%2~=0 then e=(e-0x24f)%0x7b2d local e=20344 if not d[e]then d[e]=0x1 h=\"\\4\\8\\116\\111\\110\\117\\109\\98\\101\\114\\66\\89\\66\\112\\120\\113\\79\\86\\0\\6\\115\\116\\114\\105\\110\\103\\4\\99\\104\\97\\114\\71\\106\\98\\120\\69\\108\\110\\82\\0\\6\\115\\116\\114\\105\\110\\103\\3\\115\\117\\98\\121\\109\\100\\76\\74\\69\\95\\102\\0\\6\\115\\116\\114\\105\\110\\103\\4\\98\\121\\116\\101\\69\\106\\95\\98\\70\\79\\87\\81\\0\\5\\116\\97\\98\\108\\101\\6\\99\\111\\110\\99\\97\\116\\113\\99\\79\\103\\98\\69\\75\\108\\0\\5\\116\\97\\98\\108\\101\\6\\105\\110\\115\\101\\114\\116\\..(194.02kb left.)")
+                                                                                local var78 = (unpack or unpack)
+                                                                                local success12 = pcall(function(...) -- pcall id 12
+                                                                                wait()
+                                                                                end) -- true
+                                                                                end
+                                                                                if getfenv then -- ran, expr id 25, had an 'else' but never ran.
+                                                                                if unpack then -- ran, expr id 26, had an 'else' but never ran.
+                                                                                -- false
+                                                                                if not table then -- didnt run, expr id 27
+                                                                                else
+                                                                                error("/[internal]: wrong number of arguments to 'insert'") -- Loadstring error
+                                                                                end
+                                                                                end
+                                                                                end
+                                                                                end
+                                                                            end
+                                                                        end
+                                                                    end
+                                                                end
+                                                            end
+                                                        end
+                                                    end
+                                                end
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+return var76()
